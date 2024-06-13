@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 0.05rem;
+}
+.para1 {
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 6rem;
+  
+}
+.para2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+    width: 68%;
+    margin: auto;
+    margin-top: 1rem;
+  
+}
+#botton-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: yellowgreen;
+    
+}
+.button{
+    margin:auto ;
+    background-color: white;
+    color: Black;
+    font-weight: bold;
+    height: 40px;
+    width: 190px;
+    border-color:white;
+    margin-top:2rem ;
+    margin-bottom: 2rem;
+}
+
+
