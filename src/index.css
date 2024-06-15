@@ -7,6 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: local("MontserratExtraBold"),
+    url("./Fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "InterLight";
+  src: local("InterLight"),
+    url("./Fonts/Inter-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
