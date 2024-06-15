@@ -1,0 +1,71 @@
+body {
+  height: 100vh;
+  background-color: black;
+  background-image: url("../Images/Ellipse.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 84vh;
+}
+
+#upper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 71%;
+}
+
+p {
+  color: white;
+  font-family: "InterLight";
+}
+
+.header {
+  font-family: "MontserratExtraBold";
+  color: white;
+  font-size: 5rem;
+  width: 100%;
+  margin-bottom: 0.1%;
+  text-align: center;
+}
+.para1 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 80%;
+}
+
+#botton-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 0.25px rgba(255, 255, 255, 0.05) solid;
+  border-radius: 30px;
+  height: 45%;
+  width: 60%;
+  background-color: rgba(217, 217, 217, 0.05);
+}
+.para2 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-align: center;
+  width: 80%;
+}
+.button {
+  background-color: white;
+  color: Black;
+  font-weight: bold;
+  border: 0cap;
+  height: 58px;
+  width: 211px;
+  font-size: 25px;
+}

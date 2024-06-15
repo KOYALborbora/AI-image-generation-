@@ -1,30 +1,31 @@
-import Home from "./pages/home";
+import Home from "./Screens/home";
 import React from "react";
+import "./App.css";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <div>
+      <header>
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <Link to="/generate">Generate</Link>
+              <Link to="/generate">GENERATE</Link>
             </li>
             <li>
-              <Link to="/login">Login/Register</Link>
+              <Link to="/login">LOGIN/REGISTER</Link>
             </li>
           </ul>
         </nav>
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </main>
-      </div>
+      </header>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
     </Router>
   );
 }

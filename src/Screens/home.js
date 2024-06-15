@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div id="container">
       <div id="upper-container">
-        <h1 className="header">Welcome to Diffuser.img</h1>
+        <h1 className="header">Welcome to Diffusion.img</h1>
         <p className="para1">Bring your imagination to life. Generate stunning images with AI.</p>
       </div>
       <div id="botton-container">
