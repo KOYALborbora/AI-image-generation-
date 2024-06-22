@@ -1,14 +1,22 @@
-header {
+body {
+  height: 100vh;
+  background-color: black;
+  background-image: url("../src/Images/Ellipse.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
   height: 12vh;
 }
 
-ul {
+.ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-li {
+.li {
   margin: 2% 2%;
   font-size: 30px;
   color: white;

@@ -1,0 +1,57 @@
+.container {
+  /* border: 1px solid white; */
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading {
+  font-family: "MontserratExtraBold";
+  color: white;
+  margin-top: 6%;
+  font-size: 3rem;
+  margin-bottom: 0.1%;
+  text-align: center;
+  /* border: 1px solid white; */
+}
+
+.secondContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 0.25px rgba(255, 255, 255, 0.05) solid;
+  border-radius: 30px;
+  height: 45%;
+  width: 30%;
+  background-color: rgba(217, 217, 217, 0.05);
+}
+
+.firstInput {
+  width: 80%;
+  height: 15%;
+  margin: 0 auto;
+  background-color: rgba(217, 217, 217, 0.1);
+  border-width: 0cap;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.button {
+  background-color: white;
+  color: Black;
+  font-weight: bold;
+  border: 0cap;
+  height: 10%;
+  width: 30%;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.para {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 8%;
+}

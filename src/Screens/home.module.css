@@ -1,31 +1,18 @@
-body {
-  height: 100vh;
-  background-color: black;
-  background-image: url("../Images/Ellipse.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#container {
+.container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   position: relative;
-  height: 84vh;
+  height: 88vh;
 }
 
-#upper-container {
+.upperContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 71%;
-}
-
-p {
-  color: white;
-  font-family: "InterLight";
 }
 
 .header {
@@ -37,13 +24,15 @@ p {
   text-align: center;
 }
 .para1 {
+  color: white;
+  font-family: "InterLight";
   font-weight: 300;
   text-align: center;
   font-size: 1.5rem;
   width: 80%;
 }
 
-#botton-container {
+.bottomContainer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -55,6 +44,8 @@ p {
   background-color: rgba(217, 217, 217, 0.05);
 }
 .para2 {
+  color: white;
+  font-family: "InterLight";
   font-size: 1.8rem;
   font-weight: 900;
   text-align: center;
