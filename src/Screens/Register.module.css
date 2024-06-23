@@ -47,7 +47,7 @@
   color: aliceblue;
 }
 
-.firstInput:focus {
+input:focus {
   outline: none;
   border: none;
 }
