@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./App.module.css";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Register from "./Screens/Register";
+import Generate from "./Screens/Generate";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/Generate" element={<Generate />} />
             <Route path="/register" element={<Register />} />
 
           </Routes>
