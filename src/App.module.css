@@ -1,9 +1,12 @@
 body {
-  height: 100vh;
   background-color: black;
   background-image: url("../src/Images/Ellipse.png");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.container{
+  background-image: url("../src/Images/Transparent.png");
 }
 
 .header {

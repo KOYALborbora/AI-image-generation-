@@ -4,17 +4,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  padding-top: 6%;
 }
 
 .heading {
   font-family: "MontserratExtraBold";
   color: white;
-  margin-top: 6%;
   font-size: 3rem;
-  margin-bottom: 0.1%;
   text-align: center;
-  /* border: 1px solid white; */
 }
 
 .secondContainer {
@@ -28,16 +26,35 @@
   background-color: rgba(217, 217, 217, 0.05);
 }
 
-.firstInput {
+.firstInputContainer {
   width: 80%;
   height: 15%;
   margin: 0 auto;
   background-color: rgba(217, 217, 217, 0.1);
-  border-width: 0cap;
   border-radius: 10px;
-  padding-left: 20px;
-  font-size: 1.2rem;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.firstInput{
+  background-color: transparent;
+  height: 80%;
+  width: 80%;
+  font-size: 1.1rem;
+  border: none;
+  padding-left: 6%;
+  color: aliceblue;
+}
+
+.firstInput:focus{
+  outline: none;
+  border: none;
+} 
+
+.logo{
+  margin-right: 6%;
 }
 
 .button {
